@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +10,12 @@
 	<body>
 		<header>
       		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      			<div class="col-md-1"></div>
         		<a class="navbar-brand" href="#">LabSec Challenge</a>
-        		<!--  
-        		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          			<span class="navbar-toggler-icon"></span>
-        		</button>-->
 		        <div class="collapse navbar-collapse" id="navbarCollapse">
 		          <ul class="navbar-nav ml-auto">
 		            <li class="nav-item active">
-		              <a class="nav-link" href="#">Juan David Mendez</a>
+		              <a class="nav-link" href="https://goo.gl/R9EqMa" target="_blank"> <i class="fas fa-id-card"></i>  Juan David Mendez</a>
 		            </li>
 		          </ul>
 		        </div>
@@ -28,14 +25,13 @@
     	
 		<br>
 		
-		<div class="container form-group col-md-6">		
+		<div class="container form-group col-md-9">		
 			<h2>LabSec Challenge</h2>
-			<p>Select a file to upload to the REST endpoint and wait the answeraaa</p>
+			<p>Select a file to upload to the REST endpoint and wait the answer</p>
 			<br>
-			<div class="custom-file col-md-7">
-					<p>Choose : <input type="file" name="upload_file" id="customFile" /></p>
- 					<!-- <input type="file" class="custom-file-input" id="customFile">-->
- 					<label for="customFile">Choose file</label>
+			<div class="custom-file col-md-8">
+				<input type="file" class="custom-file-input" name="upload_file" id="customFile" lang="en"/>
+				<label class="custom-file-label" for="customFile">Choose file</label>
 			</div>
 			<br>
 			<br>
